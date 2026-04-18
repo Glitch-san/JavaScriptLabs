@@ -1,0 +1,10 @@
+let word = prompt();
+let wordd = "";
+for(let i = 0; i < word.length; i++){
+  let c = word[i];
+  if(c == "а" || c == "А" || c == "о" || c == "О"){}
+  else {
+    wordd += c;
+  }
+}
+console.log(wordd);
