@@ -1,0 +1,6 @@
+let num = Number(prompt());
+let q = "";
+for(let i = 1; i <= num; i++){
+  q += i;
+  console.log(q)
+}
